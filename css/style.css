@@ -1,0 +1,15 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+header {
+  background: linear-gradient(45deg, #007bff, #6610f2);
+}
+
+footer a {
+  text-decoration: none;
+}
