@@ -33,12 +33,36 @@
 
       <!-- Proyecto 1 -->
       <div class="card mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Proyecto 1</h5>
-          <p class="card-text">Descripción breve del proyecto.</p>
-          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProyecto1">Ver Video</button>
+    <div class="card-body">
+        <!-- Icono + Título -->
+        <h5 class="card-title">🎯 [Icono] Nombre del Proyecto</h5>
+        
+        <!-- Descripción breve -->
+        <p class="card-text">
+            [2-3 líneas describiendo el proyecto y su propósito]
+        </p>
+        
+        <!-- Tecnologías usadas -->
+        <p class="small text-muted">
+            <strong>Tecnologías:</strong> [Lista de tecnologías usadas]
+        </p>
+        
+        <!-- Enlaces adicionales (opcional) -->
+        <div class="mt-3">
+            <a href="[link-al-proyecto]" target="_blank" class="btn btn-outline-secondary btn-sm">
+                <i class="fas fa-external-link-alt me-1"></i>Ver Proyecto
+            </a>
+            <a href="[link-al-código]" target="_blank" class="btn btn-outline-dark btn-sm">
+                <i class="fab fa-github me-1"></i>Código Fuente
+            </a>
         </div>
-      </div>
+        
+        <!-- Botón del modal -->
+        <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modalProyecto1">
+            <i class="fas fa-play me-2"></i>Ver Video Demo
+        </button>
+    </div>
+</div>
 
       <!-- Proyecto 2 -->
       <div class="card mb-4">
@@ -61,57 +85,74 @@
     </div>
   </section>
 
-  <!-- Modales -->
-  <!-- Modal Proyecto 1 -->
-  <div class="modal fade" id="modalProyecto1" tabindex="-1">
+<!-- Modal Proyecto 1 -->
+<div class="modal fade" id="modalProyecto1" tabindex="-1">
     <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Video del Proyecto 1</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">🎨 Demo: Portafolio Personal</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p class="mb-3">
+                    <strong>Descripción completa:</strong> Desarrollo de un portafolio web completamente responsive 
+                    con efectos interactivos, diseño moderno y optimizado para SEO.
+                </p>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/jS4aFq5-91M" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/TU_VIDEO_ID_1" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
 
-  <!-- Modal Proyecto 2 -->
-  <div class="modal fade" id="modalProyecto2" tabindex="-1">
+<!-- Modal Proyecto 2 -->
+<div class="modal fade" id="modalProyecto2" tabindex="-1">
     <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Video del Proyecto 2</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">🛒 Demo: Tienda Online</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p class="mb-3">
+                    <strong>Descripción completa:</strong> E-commerce funcional con carrito de compras, 
+                    gestión de productos y interfaz intuitiva para el usuario final.
+                </p>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/W6NZfCO5SIk" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/TU_VIDEO_ID_2" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
 
-  <!-- Modal Proyecto 3 -->
-  <div class="modal fade" id="modalProyecto3" tabindex="-1">
+<!-- Modal Proyecto 3 -->
+<div class="modal fade" id="modalProyecto3" tabindex="-1">
     <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Video del Proyecto 3</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">🌤️ Demo: App del Clima</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p class="mb-3">
+                    <strong>Descripción completa:</strong> Aplicación que consume API externa para mostrar 
+                    condiciones climáticas en tiempo real con interfaz amigable.
+                </p>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/9cKsq14Kfsw" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/TU_VIDEO_ID_3" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
